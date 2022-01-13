@@ -57,7 +57,7 @@ const popUp = () => {
 
 }
 
-
+noBtn.addEventListener('click', moveBtn);
 noBtn.addEventListener('mouseover', moveBtn);
 yesBtn.addEventListener('click', popUp);
 
